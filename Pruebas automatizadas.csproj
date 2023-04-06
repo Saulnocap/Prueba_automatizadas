@@ -17,5 +17,6 @@
     <PackageReference Include="SpecFlow" Version="4.0.31-beta"/>
     <PackageReference Include="SpecFlow.NUnit" Version="4.0.31-beta"/>
     <PackageReference Include="extent.netcore" Version="1.9.0"/>
+    <PackageReference Include="WriteableBitmapEx" Version="1.6.8"/>
   </ItemGroup>
 </Project>

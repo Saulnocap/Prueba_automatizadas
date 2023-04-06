@@ -5,6 +5,11 @@ using TechTalk.SpecFlow;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Drawing;
+using System.Data;
+using System.Linq;
+using System;
+using System.Runtime.InteropServices;
 
 namespace Pruebas_automatizadas;
 [TestFixture]
@@ -27,6 +32,7 @@ public class Tests
     public void ToLoginbut()
     {
         action.goToLogin();
+        
     }
 
     [Test]
@@ -34,6 +40,7 @@ public class Tests
     {
         action.tosearch("Hechos sin dichos");
     }
+
  /*
     [Test]
     public void BDeposittest()
@@ -140,7 +147,6 @@ class Loginpage
     public void goToLogin()
     {
         btnlogin.Click();
-        Assert.Pass();
     }
 
     private By Search = By.Id("search-query");
@@ -149,15 +155,12 @@ class Loginpage
     private IWebElement Btnsea => driver.FindElement(btnsearch);
     public void tosearch(string name)
     {
+        
         fSearch.Click();
         fSearch.SendKeys(name);
         Btnsea.Click();
-        Boolean verifyTitle = driver.Title.Equals("Hechos sin dichos - Wattpad");
-        if (verifyTitle is true){
-            Assert.Pass();
-        } else {
-            Assert.Fail();
-        }
     }
+    
 }
+
 

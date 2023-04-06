@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "I84S8nIiXoK/NqbaDqc5wssyYkO6nL+fwrJD2ZXRW49eAkcN7qpwLR9ViMc51EZtu8J4SjWHimbhcl1B2vff9Q==",
+  "dgSpecHash": "odks4IbWumZs4XDoZmnJdhvddE8zy1Mm8N0kM+XxB0VHqq/3h+K3L42J4int7Ag1lNCKWcL1KLo/cZOEbamo6g==",
   "success": true,
   "projectFilePath": "c:\\Users\\user\\Desktop\\all\\ITLA\\2023\\ProgIII\\Proyectos\\Pruebas _automatizadas\\Pruebas automatizadas.csproj",
   "expectedPackageFiles": [
@@ -153,7 +153,8 @@
     "C:\\Users\\user\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\system.xml.xpath\\4.3.0\\system.xml.xpath.4.3.0.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\system.xml.xpath.xdocument\\4.3.0\\system.xml.xpath.xdocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\user\\.nuget\\packages\\system.xml.xpath.xdocument\\4.3.0\\system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\writeablebitmapex\\1.6.8\\writeablebitmapex.1.6.8.nupkg.sha512"
   ],
   "logs": []
 }

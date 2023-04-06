@@ -68,6 +68,10 @@
               "target": "Package",
               "version": "[4.0.31-beta, )"
             },
+            "WriteableBitmapEx": {
+              "target": "Package",
+              "version": "[1.6.8, )"
+            },
             "coverlet.collector": {
               "target": "Package",
               "version": "[3.1.2, )"
