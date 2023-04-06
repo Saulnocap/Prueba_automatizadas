@@ -60,9 +60,21 @@
               "target": "Package",
               "version": "[4.8.2, )"
             },
+            "SpecFlow": {
+              "target": "Package",
+              "version": "[4.0.31-beta, )"
+            },
+            "SpecFlow.NUnit": {
+              "target": "Package",
+              "version": "[4.0.31-beta, )"
+            },
             "coverlet.collector": {
               "target": "Package",
               "version": "[3.1.2, )"
+            },
+            "extent.netcore": {
+              "target": "Package",
+              "version": "[1.9.0, )"
             }
           },
           "imports": [

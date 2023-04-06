@@ -1,6 +1,10 @@
 using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using TechTalk.SpecFlow;
+using System;
+using System.Collections.Generic;
+using System.Text;
 
 namespace Pruebas_automatizadas;
 [TestFixture]
@@ -68,6 +72,8 @@ public class Tests
 
 class Loginpage 
 {
+
+    
     private IWebDriver driver;
 
     public Loginpage(IWebDriver browser)
@@ -153,8 +159,5 @@ class Loginpage
             Assert.Fail();
         }
     }
-
-
-
-
 }
+
