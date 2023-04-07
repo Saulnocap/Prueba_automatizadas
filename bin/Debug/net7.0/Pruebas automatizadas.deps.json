@@ -15,6 +15,7 @@
           "Selenium.WebDriver": "4.8.2",
           "SpecFlow": "4.0.31-beta",
           "SpecFlow.NUnit": "4.0.31-beta",
+          "WriteableBitmapEx": "1.6.8",
           "coverlet.collector": "3.1.2",
           "extent.netcore": "1.9.0"
         },
@@ -1654,6 +1655,14 @@
           "System.Xml.XDocument": "4.3.0",
           "System.Xml.XPath": "4.3.0"
         }
+      },
+      "WriteableBitmapEx/1.6.8": {
+        "runtime": {
+          "lib/netcoreapp3.0/WriteableBitmapEx.Wpf.dll": {
+            "assemblyVersion": "1.6.8.0",
+            "fileVersion": "1.6.8.0"
+          }
+        }
       }
     }
   },
@@ -2712,6 +2721,13 @@
       "sha512": "sha512-jw9oHHEIVW53mHY9PgrQa98Xo2IZ0ZjrpdOTmtvk+Rvg4tq7dydmxdNqUvJ5YwjDqhn75mBXWttWjiKhWP53LQ==",
       "path": "system.xml.xpath.xdocument/4.3.0",
       "hashPath": "system.xml.xpath.xdocument.4.3.0.nupkg.sha512"
+    },
+    "WriteableBitmapEx/1.6.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DmMeRt3Zr+xu21U9uY9baniMlX86nSKRBoUvFXZilsk553Him37OX04nE2ctJtPHONbVD/iB1dsIfQx+r1LH0Q==",
+      "path": "writeablebitmapex/1.6.8",
+      "hashPath": "writeablebitmapex.1.6.8.nupkg.sha512"
     }
   }
 }

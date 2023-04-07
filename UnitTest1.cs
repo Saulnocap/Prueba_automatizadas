@@ -1,3 +1,4 @@
+#region using
 using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
@@ -10,6 +11,7 @@ using System.Data;
 using System.Linq;
 using System;
 using System.Runtime.InteropServices;
+#endregion
 
 namespace Pruebas_automatizadas;
 [TestFixture]
@@ -41,35 +43,6 @@ public class Tests
         action.tosearch("Hechos sin dichos");
     }
 
- /*
-    [Test]
-    public void BDeposittest()
-    {
-        action.deposito("1200");
-        Assert.Pass();
-    }
-
-    [Test]
-    public void CWithdrawtest()
-    {
-        action.Withdraw("400");
-        Assert.Pass();
-    }
-
-    [Test]
-    public void DTransfertest()
-    {
-        
-    }
-
-    [Test]
-    public void ELogofftest()
-    {
-        action.Logoff();
-        Assert.IsTrue(driver.Url.Contains("Welcome"));
-    }
-    */
-
     [OneTimeTearDown]
     public void Close(){
         //si necesita que se cierre la prueba quite los signos de comentario de abajo
@@ -80,7 +53,6 @@ public class Tests
 class Loginpage 
 {
 
-    
     private IWebDriver driver;
 
     public Loginpage(IWebDriver browser)
@@ -90,60 +62,6 @@ class Loginpage
     private By Btn = By.CssSelector("button[class='btn btn-sm']");
     private IWebElement btnlogin =>driver.FindElement(Btn);
 
-    #region comment
-    /*
-    #region login
-    private By usuario = By.Id("username");
-    private IWebElement Username => driver.FindElement(usuario);
-
-    private By contraseña = By.Id("password");
-    private IWebElement Password => driver.FindElement(contraseña);
-
-    private By loginclick = By.Id("buttonxd");
-    private IWebElement BtnLogin => driver.FindElement(loginclick);
-
-    public void LoginApp(string username, string password)
-    {
-        Username.SendKeys(username);
-        Password.SendKeys(password);
-        BtnLogin.Click();
-    }
-    #endregion
-    #region deposit
-    private By amount = By.Id("amount");
-    private IWebElement Amount => driver.FindElement(amount);
-    private By deposit = By.Id("botondeposito");
-    private IWebElement Deposit => driver.FindElement(deposit);
-
-    public void deposito(string monto)
-    {
-        Amount.SendKeys(monto);
-        Deposit.Click();
-    }
-    #endregion
-    #region withdraw
-    private By withdraw = By.Id("botonsacar");
-    private IWebElement Sacar => driver.FindElement(withdraw);
-
-    public void Withdraw(string monto)
-    {
-        Amount.SendKeys(monto);
-        Sacar.Click();
-    }
-    #endregion
-    #region transfer
-    #endregion
-    #region logoff
-    private By logoff = By.Id("botonsalir");
-    private IWebElement Salir => driver.FindElement(logoff);
-
-    public void Logoff()
-    {
-        Salir.Click();
-    }
-    #endregion
-    */
-    #endregion
     public void goToLogin()
     {
         btnlogin.Click();
